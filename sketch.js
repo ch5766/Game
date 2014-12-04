@@ -41,10 +41,3 @@ function keyPressed() {
 
   return false; // prevent any default behavior
 }
-
-function keyTyped() {
-  if (key === ' ') {
-  
-  } else if (key === ' ') {
-   
-  }
