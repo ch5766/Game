@@ -10,7 +10,7 @@ function setup() {
   
   noFill();
   x = 25;
-  y = 300;
+  y = 350;
   ironjump=y;
 }
 
