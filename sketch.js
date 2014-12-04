@@ -1,6 +1,7 @@
 var value = 0;
 var x, y;
 var bg, iron
+var ironjump
 
 function setup() {
   createCanvas(640, 480);
@@ -9,7 +10,8 @@ function setup() {
   
   noFill();
   x = 25;
-  y = 25;
+  y = 300;
+  ironjump=y;
 }
 
 function draw() {
@@ -31,9 +33,18 @@ function keyPressed() {
     x = x + 10;
   } else if (keyCode === UP_ARROW) {
     y = y - 10;
+    ironjump=y;
   } else if (keyCode === DOWN_ARROW) {
     y = y + 10;
+    ironjump=y;
   }
 
   return false; // prevent any default behavior
 }
+
+function keyTyped() {
+  if (key === ' ') {
+    y = y - 10;
+  } else if (key === ' ') {
+    y = y + 10;
+  }
