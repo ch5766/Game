@@ -44,7 +44,7 @@ function keyPressed() {
 
 function keyTyped() {
   if (key === ' ') {
-    y = y - 10;
+  
   } else if (key === ' ') {
-    y = y + 10;
+   
   }
