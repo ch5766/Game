@@ -1,16 +1,21 @@
 var value = 0;
 var x, y;
+var bg
+
 function setup() {
   createCanvas(640, 480);
+  bg = loadImage("bg.png");
   
   noFill();
   x = 25;
   y = 25;
 }
+
 function draw() {
    background(0, 0, 64);
   
     fill(255);
+    background(bg);
   
   rect(x, y, 50, 50);
 }
