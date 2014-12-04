@@ -19,8 +19,8 @@ function draw() {
     background(bg);
   
   image(iron,x, y, 53, 56);
-  if(y>400){
-   y=400;
+  if(y>350){
+   y=350;
   }
 }
 
