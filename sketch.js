@@ -1,10 +1,11 @@
 var value = 0;
 var x, y;
-var bg
+var bg, iron
 
 function setup() {
   createCanvas(640, 480);
   bg = loadImage("bg.png");
+  iron = loadImage("iron.png");
   
   noFill();
   x = 25;
@@ -17,7 +18,7 @@ function draw() {
     fill(255);
     background(bg);
   
-  rect(x, y, 50, 50);
+  image(iron,x, y, 53, 56);
 }
 
 function keyPressed() {
