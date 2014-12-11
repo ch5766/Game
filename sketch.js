@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-   background(0, 0, 64);
+   background(0, 0, 63);
   
     fill(255);
     background(bg);
